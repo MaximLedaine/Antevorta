@@ -2,4 +2,7 @@
 
 ## to start development
 
-./analysis/bin/start.shd# TFP
+
+```
+./analysis/bin/start.sh
+```
