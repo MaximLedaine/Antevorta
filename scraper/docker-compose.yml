@@ -1,0 +1,23 @@
+version: '3.5'
+services:
+  scrapy:
+    container_name: scrapy
+    build: ./scrapy
+    ports:
+      - "9080:9080"
+    networks:
+      - scraper-net
+  api:
+    container_name: scraper_api
+    build: ./api
+    ports:
+      - "9081:9081"
+    networks: 
+      - scraper-net
+    environment:
+      - scrapyhost=http://scrapy:9080
+      
+networks:
+  scraper-net:
+    driver: "bridge"
+    name: "scraper-net"
