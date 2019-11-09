@@ -2,8 +2,6 @@ import requests as requests
 import json
 baseUrl = 'https://cloud.iexapis.com/v1'
 apikey = 'pk_8a31fe45ab0c48c785d7f10d0021b0e9'
-# baseUrl = 'https://sandbox.iexapis.com/v1'
-# apikey = 'Tpk_0d3659b6498c4c3585a7d2ee190cbfc7'
 from elasticsearch import Elasticsearch
 es = Elasticsearch()
 from pymongo import MongoClient
@@ -84,3 +82,6 @@ for exchange in exchanges:
     # company
     docs = getCompanyList(symbols)
     setCompanyList(docs)
+
+# list all exchanges
+# [x for x in exchanges if ...]
