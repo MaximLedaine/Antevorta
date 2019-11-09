@@ -13,3 +13,7 @@ or
 docker-compose build
 docker-compose up
 ```
+
+cluster => localhost:9200
+api => localhost:4100
+kibana => localhost:5601

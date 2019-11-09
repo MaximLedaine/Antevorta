@@ -4,5 +4,5 @@
 
 
 ```
-./analysis/bin/start.sh
+./bin/start.sh
 ```

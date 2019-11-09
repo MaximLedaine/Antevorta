@@ -6,6 +6,8 @@ Scraper allows you to scrape any website with rotating user-agents and proxies
 
 # Routes
 
+request url: localhost:9081
+
 ## requests
 
 ```
