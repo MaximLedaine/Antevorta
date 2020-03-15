@@ -13,6 +13,6 @@ Werkzeug==0.15.5
 wincertstore==0.2
 Flask-Cors==3.0.8
 lxml==4.4.1
-yfinance==0.1.45
+yfinance==0.1.52
 pandas==0.25.1
 numpy==1.17.1

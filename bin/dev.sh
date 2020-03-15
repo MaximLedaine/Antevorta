@@ -10,7 +10,4 @@ docker-compose up --build -d
 cd ../elasticsearch
 docker-compose up --build -d
 
-cd ../analysis
-bin/dev.sh
-
 echo finished

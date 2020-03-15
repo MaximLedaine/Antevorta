@@ -1,8 +1,29 @@
-# Anteverta
+# Antevorta
+Antevorta is the goddess of the future
 
-## to start development
-
+## Run Development
 
 ```
-./bin/start.sh
+sh ./bin/dev.sh
 ```
+
+## Application cCmponents
+### Ui
+[User Interface](ui/README.md)
+
+Vue PWA 
+
+### Api
+[Application Interface](api/README.md)
+
+Node.js/express.js
+
+### Scraper
+[Web Scraper](scraper/README.md)
+
+Scrapy
+
+### Snippets
+[Notebooks](snippets/README.md)
+
+Jupyter notebooks/scripts
