@@ -1,19 +1,16 @@
 import store from '../../../store'
 import types from '../../types'
 export default {
-  [types.db.mutations.setItems]: (state, payload) => {
-    state.items = payload
+  [types.db.mutations.setStats]: (state, payload) => {
+    state.stock.stats = payload
   },
-  [types.db.mutations.setItem]: (state, payload) => {
-    state.item = payload
+  [types.db.mutations.setStatistics]: (state, payload) => {
+    state.stock.statistics = payload
   },
-  [types.db.mutations.setLists]: (state, payload) => {
-    state.lists = payload
+  [types.db.mutations.setCompany]: (state, payload) => {
+    state.stock.company = payload
   },
-  [types.db.mutations.setList]: (state, payload) => {
-    state.list = payload
-  },
-  [types.db.mutations.setOrganization]: (state, payload) => {
-    state.organization = payload
+  [types.db.mutations.setHistory]: (state, payload) => {
+    state.stock.history = payload
   }
 }

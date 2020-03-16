@@ -13,7 +13,7 @@ pip install -r requirements.txt
 sh bin/dev.sh
 ```
 
-## git guidlines
+## git guidelines
 Clean out your notebooks before you commit
 ```
 sh bin/clean.sh

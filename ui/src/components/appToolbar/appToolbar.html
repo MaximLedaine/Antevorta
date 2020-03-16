@@ -1,7 +1,7 @@
 
 <section class="app-toolbar">
-  <v-app-bar absolute color="white" elevate-on-scroll>
-    <v-app-bar-nav-icon></v-app-bar-nav-icon>
+  <v-app-bar color="white" elevate-on-scroll app>
+    <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
     <v-toolbar-title>{{$route.meta.name}}</v-toolbar-title>
     <v-spacer></v-spacer>
     <span class="search-field">
@@ -19,7 +19,7 @@
     </span>
   </v-app-bar>
 
-  <v-navigation-drawer v-model="drawer" :expand-on-hover="true" :mini-variant="miniVariant" permanent absolute dark app>
+  <v-navigation-drawer v-model="drawer" :expand-on-hover="true" :mini-variant="miniVariant" permanent dark app>
     <v-list nav>
       <v-list-item two-line class="px-0">
         <v-list-item-avatar>

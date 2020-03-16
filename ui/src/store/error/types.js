@@ -1,12 +1,12 @@
 export default {
   actions: {
-    setRunningAction: 'actSetRunningAction',
-    removeRunningAction: 'actRemoveRunningAction',
+    setAction: 'actSetAction',
+    removeAction: 'actRemoveAction',
     setError: 'actSetError'
   },
   mutations: {
-    setRunningAction: 'mutSetRunningAction',
-    removeRunningAction: 'mutRemoveRunningAction',
+    setAction: 'mutSetAction',
+    removeAction: 'mutRemoveAction',
     setError: 'mutSetError'
   },
   getters: {

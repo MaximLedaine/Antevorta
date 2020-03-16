@@ -4,10 +4,10 @@ echo Starting
 cd ./scraper
 docker-compose up --build -d
 
-cd ../mongodb
+cd ../api
 docker-compose up --build -d
 
-cd ../elasticsearch
-docker-compose up --build -d
+cd ../ui
+npm run serve
 
 echo finished

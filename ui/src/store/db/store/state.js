@@ -1,7 +1,8 @@
 export default {
-  items: [],
-  item: {},
-  lists: [],
-  list: {},
-  organization: {}
+  stock:{
+    company: null,
+    history: null,
+    stats: null,
+    statistics: null
+  }
 }

@@ -1,8 +1,8 @@
-import errorHandling from './errorHandling/types.js'
+import error from './error/types.js'
 import db from './db/types.js'
 import auth from './auth/types.js'
 var types = {
-  errorHandling,
+  error,
   db,
   auth
 }

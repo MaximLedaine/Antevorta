@@ -9,21 +9,21 @@ sh ./bin/dev.sh
 
 ## Application cCmponents
 ### Ui
-[User Interface](ui/README.md)
+[User Interface](ui)
 
 Vue PWA 
 
 ### Api
-[Application Interface](api/README.md)
+[Application Interface](api)
 
 Node.js/express.js
 
 ### Scraper
-[Web Scraper](scraper/README.md)
+[Web Scraper](scraper)
 
 Scrapy
 
 ### Snippets
-[Notebooks](snippets/README.md)
+[Snippets](snippets)
 
-Jupyter notebooks/scripts
+Jupyter notebooks and scripts

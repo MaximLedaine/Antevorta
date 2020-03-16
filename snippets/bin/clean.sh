@@ -2,7 +2,7 @@
 echo cleaning notebooks
 
 # enter every folder to clean files
-cd jupyter
+cd notebooks
 
 find $directory -type f -name "*.ipynb" | while read line; do
     echo "Processing file '$line'"

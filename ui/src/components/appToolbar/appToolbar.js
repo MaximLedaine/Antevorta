@@ -5,7 +5,10 @@ export default {
   data () {
     return {
       routes: [
-        { title: 'Dashboard', icon: 'dashboard', to:'dashboard' }
+        { title: 'Dashboard', icon: 'dashboard', to:'dashboard' },
+        { title: 'Query', icon: 'search', to:'query' },
+        { title: 'Stocks', icon: 'attach_money', to:'stocks' },
+        { title: 'Analysis', icon: 'pie_chart', to:'analysis' }
       ],
       drawer: true,
       miniVariant: true,

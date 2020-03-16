@@ -2,7 +2,7 @@
 
 ## Run development
 
-To run the backend in devmode simply execute following command
+To run the backend in devmode simply execute the following command
 
 ```
 bin/dev.sh

@@ -9,7 +9,7 @@ def create_app(config_filename):
     app.config.from_object(config_filename)
     
     from blueprints.v1.api import api_bp as v1
-    app.register_blueprint(v1, url_prefix='/v1')
+    app.register_blueprint(v1, url_prefix='/api/v1')
 
     # from blueprints.v2.api import api_bp as v2
     # app.register_blueprint(v2_, url_prefix='/v2')

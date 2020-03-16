@@ -18,7 +18,7 @@ class StatsSpider(scrapy.Spider):
                 'open': parseNumber(response.xpath(".//td[@data-test='OPEN-value']/span/text()").get()),
                 'previousClose': parseNumber(response.xpath(".//td[@data-test='PREV_CLOSE-value']/span/text()").get()),
                 'marketCap': parseMarketCap(response.xpath(".//td[@data-test='MARKET_CAP-value']/span/text()").get()),
-                'beta': parseNumber(response.xpath(".//td[@data-test='BETA_3Y-value']/span/text()").get()),
+                'beta': parseNumber(response.xpath(".//td[@data-test='BETA_5Y-value']/span/text()").get()),
                 'peRatio': parseNumber(response.xpath(".//td[@data-test='PE_RATIO-value']/span/text()").get()),
                 'ttmEPS': parseNumber(response.xpath(".//td[@data-test='EPS_RATIO-value']/span/text()").get()),
                 'forwardDividendYield': parseForwardDividendYield(response.xpath(".//td[@data-test='DIVIDEND_AND_YIELD-value']/text()").get()),

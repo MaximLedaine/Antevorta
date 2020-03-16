@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 import vuetify from './plugins/vuetify';
+import { sync } from 'vuex-router-sync'
+const unsync = sync(store, router)
 
 Vue.config.productionTip = false
 
